@@ -42,7 +42,7 @@ URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/i
 問題の定式化として，
 
 - 設計変数：
-<img src="img/hensu.PNG" width="100px">
+<img src="img/hensu.PNG" width="150px">
 ...各次元は上記の駅番号表記と対応し，値としてルートの順序を持つ．
 - 目的関数：
 ![目的関数](img/objectfunc.PNG)
