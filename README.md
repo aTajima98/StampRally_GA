@@ -44,10 +44,7 @@ URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/i
 設計変数：x=(x1,...,xN)...各次元はスタンプ取得駅と対応し，値としてルートの順序を持つ．
 
 目的関数：
-\begin{align*}
-minimize f(x)&=\sum_{i=1}^{N}(乗車時間+スタンプ取得時間) + (スタート地点に戻る時間)
-\end{align*}
-
+![実行結果](img/.png)
 制約条件：訪れる駅は重複しないこと．
 
 
