@@ -12,7 +12,7 @@
 
 URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/index.html
 
-全11駅の表現は，以下のような数字で行っている．
+全11駅の表現は，以下のような数字で表現している．
 
 0. 武蔵藤沢(スタート駅)
 1. 入間市
