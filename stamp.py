@@ -29,8 +29,8 @@ hs_ss=[]    #西武新宿
 pop = []    #全個体のスタンプ取得順番情報
 offspring = []  #子個体のスタンプ取得順番情報
 sum_time = []    #全個体の要する時間
-size_pop = 20   #個体数
-max_generation = 100    #繰り返し回数の上限
+#size_pop = 20   #個体数
+#max_generation = 100    #繰り返し回数の上限
 
 #列のリストを作成
 def make_timeline(sheet):
@@ -758,17 +758,21 @@ def print_eki(pop,fit,num):
 
 #main
 #データを読み取る
-ikebukuro=read_data_i("i_train_schedule.xlsx")
-hanno=read_data_h("h_train_schedule.xlsx")
-toshimaen=read_data_t("t_train_schedule.xlsx")
-honkawa=read_data_hk("hk_train_schedule.xlsx")
-seibushinjuku = read_data_ss("ss_train_schedule.xlsx")
+ikebukuro=read_data_i("timetable/i_train_schedule.xlsx")
+hanno=read_data_h("timetable/h_train_schedule.xlsx")
+toshimaen=read_data_t("timetable/t_train_schedule.xlsx")
+honkawa=read_data_hk("timetable/hk_train_schedule.xlsx")
+seibushinjuku = read_data_ss("timetable/ss_train_schedule.xlsx")
 #乗車時間データ
-ih_ir,ih_tz,ih_sk,ih_nm,ih_ib,=read_data_ih("i_h.xlsx")
-hs_st,hs_tz,hs_tn,hs_um,hs_tb,hs_ss=read_data_hs("h_s.xlsx")
+ih_ir,ih_tz,ih_sk,ih_nm,ih_ib,=read_data_ih("time_riding/i_h.xlsx")
+hs_st,hs_tz,hs_tn,hs_um,hs_tb,hs_ss=read_data_hs("time_riding/h_s.xlsx")
 
-#スタンプ取得数を得る
-num_stamp=5
+#スタンプ取得数を得る(5=<s=<11)
+num_stamp=11
+
+#遺伝的アルゴリズムの設定
+size_pop = 20   #個体数
+max_generation = 100    #繰り返し回数の上限
 
 #初期個体集団を生成する
 initialize()
