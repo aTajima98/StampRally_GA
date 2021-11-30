@@ -58,6 +58,18 @@ URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/i
 
 
 ## 環境
+- ファイル構造
+  - timetable
+    - 出発時間を記録したファイル集合
+  - time_riding
+    - 各駅，急行などの場合の乗車時間を記録したファイル集合
+  - stamp.py
+  
+- 実行環境
+  - Python 3.8
+  - import random
+  - import copy
+  - import openpyxl
 
 ## 注意事項
 本プログラムは，スタート地点とゴール地点を「武蔵藤沢」に固定している．
