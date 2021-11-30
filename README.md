@@ -43,7 +43,7 @@ URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/i
 
 - 設計変数：
   
-  x=(x1,...,xN)...各次元は上記の駅番号表記と対応し，値としてルートの順序を持つ．
+  **x**=(*x1,...,xN*)...各次元は上記の駅番号表記と対応し，値としてルートの順序を持つ．
 - 目的関数：
 ![目的関数](img/objectfunc.PNG)
 N...スタンプ取得数
