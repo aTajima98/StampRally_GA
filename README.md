@@ -8,9 +8,11 @@
 最良個体 at oo世代 : 個体番号 (全乗車時間：oo) [1,2,...ルート順]
 
 ## 概要
-このプログラムは，西武線で行われた「映画ドラえもん のび太の新恐竜」公開記念　西武線アプリスタンプラリー」を最短時間で回るルート検索を行った．
+このプログラムは，西武線で行われた"「映画ドラえもん のび太の新恐竜」公開記念　西武線アプリスタンプラリー"を最短時間で回るルート検索を行った．
 
-URL：https://www.seiburailway.jp/guide/event-campaign-info/event/doraemon2020/index.html
+URL：西武鉄道．「映画ドラえもん のび太の新恐竜」公開記念　西武線アプリスタンプラリー
+
+https://www.seiburailway.jp/news/news-release/2020/20200721_doraemon_stamp2.pdf
 
 全11駅の表現は，以下のような数字で表現している．
 
